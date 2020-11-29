@@ -376,7 +376,6 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
-
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -397,7 +396,9 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
-
+.rc-slider-track {
+  background-color: red;
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
